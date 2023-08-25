@@ -1,1 +1,1 @@
-from util import reduce
+from .util import reduce
