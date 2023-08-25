@@ -12,10 +12,10 @@ jobs:
         steps:
             - uses: actions/checkout@main
 
-            - name: Initialize Python 3.9
+            - name: Initialize Python 3.11.5
               uses: actions/setup-python@v1
               with:
-                python-version: 3.9
+                python-version: 3.11.5
 
             - name: Install dependencies
               run: |
@@ -37,4 +37,4 @@ jobs:
               with:
                 user: __token__
                 password: ${{ secrets.PYPI_API_KEY }}
-                repository_url: https://pypi.org/project/kecutil/
+                repository_url: https://upload.pypi.org/legacy/
