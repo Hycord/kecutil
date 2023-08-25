@@ -36,4 +36,4 @@ jobs:
               uses: pypa/gh-action-pypi-publish@master
               with:
                 password: ${{ secrets.PYPI_API_KEY }}
-                repository_url: https://upload.pypi.org/p/kecutil/
+                repository_url: https://pypi.org/project/kecutil/
