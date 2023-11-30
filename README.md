@@ -15,3 +15,10 @@
 >
 > print(longestString) # "abcdef"
 > ```
+
+> kecutil.clearConsole()
+> Clears the console window
+
+> kecutil.clamp(value: int,length=2)
+> Clamps a float to have the same number of decimals as the length
+> Returns a new float
